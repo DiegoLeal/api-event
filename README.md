@@ -19,9 +19,9 @@ npm run start:dev
 Get started by running
 
 ```bash
-docker build -t nest-api .
+docker build -t api-event .
 
-docker run -p 3000:3000 --env-file .env -d nest-api
+docker run -p 3000:3000 --env-file .env -d api-event
 ```
 
 ## Docker Compose
