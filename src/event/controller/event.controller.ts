@@ -21,6 +21,7 @@ export class EventController {
 
   @Post()
   async createEvent(@Body() postData: Event): Promise<Event> {
+    console.log(Event)
     return this.eventService.createEvent(postData);
   }
 
